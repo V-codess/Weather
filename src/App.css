@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oswald:wght@300;400&family=Roboto:wght@100;300&display=swap');
+*{
+  font-family: 'Oswald', sans-serif;
+}
+body{
+  margin: 0%;
+  background-color: #dfe5f0;
+}
+.main{
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.card{
+  align-items: center;
+  background-color: #dbdddd !important;
+  /* margin-left: 500px !important;
+  margin-right: 500px !important;  */
+  color: #000 !important;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}
+.weather{
+  display: flex;
+  justify-content: space-between;
+}
+.weathercard{
+  margin: 10px;
+  text-align: left;
+}
+.header{
+  margin: 10px;
+  font-size: 25px;
+  color: #000000;
+}
+footer{
+  margin: 50px 0px 0px 0px;
+
+}
